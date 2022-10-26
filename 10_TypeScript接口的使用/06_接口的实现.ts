@@ -11,8 +11,9 @@ class Animal {
   
 }
 
-// 继承: 只能实现单继承
-// 实现: 实现接口, 类可以实现多个接口
+// 继承: 只能实现单继承---一个子类只有一个父类
+// 实现: 实现接口, 类可以实现多个接口    
+// implements是实现接口，实现一些类共有方法属性的提取。
 class Fish extends Animal implements ISwim, IEat {
   swimming() {
     console.log("Fish Swmming")
@@ -42,4 +43,6 @@ swimAction(new Person())
 
 
 swimAction({swimming: function() {}})
+
+export{}
 

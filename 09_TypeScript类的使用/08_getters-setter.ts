@@ -1,5 +1,5 @@
 class Person {
-  private _name: string
+  private _name: string //用下划线表示私有属性
   constructor(name: string) {
     this._name = name
   }
@@ -18,3 +18,5 @@ class Person {
 const p = new Person("why")
 p.name = "coderwhy"
 console.log(p.name)
+
+export{}

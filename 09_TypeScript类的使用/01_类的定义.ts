@@ -1,4 +1,5 @@
 class Person {
+  // 必写，作类型注解
   name: string
   age: number
 

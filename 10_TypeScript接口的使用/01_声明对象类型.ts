@@ -1,7 +1,7 @@
 // 通过类型(type)别名来声明对象类型
 // type InfoType = {name: string, age: number}
 
-// 另外一种方式声明对象类型: 接口interface
+// 另外一种方式声明对象类型: 接口interface（推荐）
 // 在其中可以定义可选类型
 // 也可以定义只读属性
 interface IInfoType {

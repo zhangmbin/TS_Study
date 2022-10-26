@@ -1,4 +1,4 @@
-// type CalcFn = (n1: number, n2: number) => number
+// type CalcFn = (n1: number, n2: number) => number     //阅读性更强
 // 可调用的接口
 interface CalcFn {
   (n1: number, n2: number): number
@@ -13,5 +13,6 @@ const add: CalcFn = (num1, num2) => {
 }
 
 calc(20, 30, add)
+export{}
 
 

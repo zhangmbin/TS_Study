@@ -1,4 +1,4 @@
-// protected: 在类内部和子类中可以访问
+// protected: 在类内部和子类中可以访问,外部无法访问
 
 class Person {
   protected name: string = "123"

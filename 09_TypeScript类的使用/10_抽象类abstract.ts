@@ -1,3 +1,8 @@
+//继承是多态使用的前提
+//抽象方法只能放在抽象类里（使用abstract声明）
+//抽象类不能被实例化(不能new创建)
+//抽象类中的抽象方法必须被子类实现，否则该类必须是个抽象类
+//严谨、安全
 
 function makeArea(shape: Shape) {
   return shape.getArea()
@@ -9,7 +14,7 @@ abstract class Shape {
 }
 
 
-class Rectangle extends Shape {
+class Rectangle extends Shape {//继承
   private width: number
   private height: number
 

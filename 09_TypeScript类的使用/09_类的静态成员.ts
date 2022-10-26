@@ -14,6 +14,7 @@ class Student {
   }
 }
 
-console.log(Student.time)
+console.log(Student.time)//可直接被访问
 Student.attendClass()
 
+export{}

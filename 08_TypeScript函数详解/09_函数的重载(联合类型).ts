@@ -4,7 +4,7 @@
  *  2.返回值的类型依然是不能确定
  */
 function add(a1: number | string, a2: number | string) {
-  if (typeof a1 === "number" && typeof a2 === "number") {
+  if (typeof a1 === "number" && typeof a2 === "number") {    //联合类型不能直接相加，需要做类型判断（缩小）
     return a1 + a2
   } else if (typeof a1 === "string" && typeof a2 === "string") {
     return a1 + a2

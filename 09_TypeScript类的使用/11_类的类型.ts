@@ -7,7 +7,7 @@ class Person {
 
 const p = new Person()
 
-const p1: Person = {
+const p1: Person = {//类的类型约束
   name: "why",
   eating() {
 
